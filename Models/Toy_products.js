@@ -11,15 +11,15 @@ const ToySchema = new Schema({
         require: true,
     },
     price: {
-        type: Double,
+        type: String,
         require: true,
     },
     quantity: {
-        type: BigInt,
+        type: Number,
         require: true,
     },
     image: {
-        type: Image, 
+        type: String, 
         require:true,
     }
 });
